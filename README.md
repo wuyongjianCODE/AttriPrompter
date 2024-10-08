@@ -62,7 +62,7 @@ Some important parameter: vpt_only=-4 will add the adapter of our SDPT method (o
 
 ## Citation
 
-If you use Attriprompter in your work or wish to refer to the results published in this repo, please cite our paper:
+If you use Attriprompter in your work or wish to refer to the results published in this repo, please cite our papers:
 ```BibTeX
 @ARTICLE{10704642,
   author={Wu, Yongjian and Zhou, Yang and Saiyin, Jiya and Wei, Bingzheng and Lai, Maode and Shou, Jianzhong and Xu, Yan},
