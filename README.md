@@ -5,7 +5,7 @@
 
 Official implementation of "AttriPrompter: Auto-Prompting with Attribute Semantics for Zero-shot Nuclei Detection via Visual-Language Pre-trained Models".
 The original paper link is here:
-[arXiv link](to be update), [TMI link](to be update).
+[arXiv link](to be update), [TMI link](https://ieeexplore.ieee.org/document/10704642/authors#authors).
 The proposed method has two process steps:
 1. Generating raw GLIP prediction results.
 2. Self-training via Teacher-Student knowledge distillation framework.
@@ -62,8 +62,19 @@ Some important parameter: vpt_only=-4 will add the adapter of our SDPT method (o
 
 ## Citation
 
-If you use Attriprompter in your work or wish to refer to the results published in this repo, please cite our paper:
+If you use Attriprompter in your work or wish to refer to the results published in this repo, please cite our papers:
 ```BibTeX
+@ARTICLE{10704642,
+  author={Wu, Yongjian and Zhou, Yang and Saiyin, Jiya and Wei, Bingzheng and Lai, Maode and Shou, Jianzhong and Xu, Yan},
+  journal={IEEE Transactions on Medical Imaging}, 
+  title={AttriPrompter: Auto-Prompting with Attribute Semantics for Zero-shot Nuclei Detection via Visual-Language Pre-trained Models.}, 
+  year={2024},
+  volume={},
+  number={},
+  pages={1-1},
+  keywords={Biomedical imaging;Histopathology;Semantics;Sorting;Object detection;Adaptation models;Visualization;Grounding;Unsupervised learning;Training;Nuclei Detection;Unsupervised Learning;Visual-Language Pre-trained Models;Prompt Designing;Dense Objects},
+  doi={10.1109/TMI.2024.3473745}}
+
 @inproceedings{wu2023zero,
   title={Zero-Shot Nuclei Detection via Visual-Language Pre-trained Models},
   author={Wu, Yongjian and Zhou, Yang and Saiyin, Jiya and Wei, Bingzheng and Lai, Maode and Shou, Jianzhong and Fan, Yubo and Xu, Yan},
